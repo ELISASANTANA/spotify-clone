@@ -7,12 +7,12 @@
 
 .header {
     background-color: #000000;
-    width: 280px;
-    height: 600px;
+    width: 270px;
+    height: 88vh;
 }
 
 .nav {
-    color: #FFFFFF;
+    color: #b3b3b3;
     display: grid;
     padding: 25px 0 0 25px; 
     font-family: 'DM Sans', sans-serif;
@@ -25,6 +25,7 @@
 
 .nav ul {
     margin: 15px 0 0 0;
+    width: 220px;
 }
 
 .nav ul li {
@@ -34,16 +35,34 @@
     align-items: center;
 }
 
+.nav ul li:hover {
+    color: #FFFF;
+}
+
+.nav ul li img {
+    margin-right: 18px;
+}
+
 .first-menu li img {
-    margin-right: 15px;
-    width: 20px;
+    
+    width: 19px;
 }
 
 .second-menu img {
-    margin-right: 15px;
+    
     width: 28px;
 }
 
 .second-menu {
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #282828;
+}
+
+.third-menu {
+    height: 170px;
+    overflow: auto;
+}
+
+.player {
+    height: 12vh;
+    background-color: #181818;
 }
