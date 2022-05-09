@@ -1,39 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="#">
     <title>Spotify — Web Player</title>
 </head>
+
 <body>
-    <header class="header">
-        <nav class="nav">
-        <img class="logo" src="img/Spotify logo.png" alt="">
-            <ul class="first-menu">
-                <li><img src="img/home.png" alt="Home"> Home</li>
-                <li><img src="img/search.png" alt="Search"> Search</li>
-                <li><img src="img/library.png" alt="Search"> Your Library</li>
-            </ul>
-            <ul class="second-menu">
-                <li><img src="img/addplaylist.png" alt="Playlist"> Create Playlist</li>
-                <li><img src="img/likedsongs.png" alt="Playlist">Liked Songs</li>
-            </ul>
-            <ul class="third-menu">
-                <li>faves</li>
-                <li>Women of K-Pop</li>
-                <li>rain sounds</li>
-                <li>random</li>
-                <li>fellings hurt</li>
-            </ul>
-            <ul>
-                <li><img src="img/install.png" alt=""> Install App</li>
-            </ul>
-        </nav>    
-    </header>
+    <section class="container">
+        <nav class="header">
+            <nav class="nav">
+                <img class="logo" src="img/Spotify logo.png" alt="">
+                <ul class="first-menu">
+                    <li><img src="img/home.png" alt="Home"> Home</li>
+                    <li><img src="img/search.png" alt="Search"> Search</li>
+                    <li><img src="img/library.png" alt="Search"> Your Library</li>
+                </ul>
+                <ul class="second-menu">
+                    <li><img src="img/addplaylist.png" alt="Playlist"> Create Playlist</li>
+                    <li><img src="img/likedsongs.png" alt="Playlist">Liked Songs</li>
+                </ul>
+                <ul class="third-menu">
+                    <li>faves</li>
+                    <li>Women of K-Pop</li>
+                    <li>rain sounds</li>
+                    <li>random</li>
+                    <li>fellings hurt</li>
+                </ul>
+                <ul>
+                    <li><img src="img/install.png" alt=""> Install App</li>
+                </ul>
+            </nav>
+        </nav>
+        <section class="main">
+            <header class="fixedHeader">
+                <img src="img/toparrownavigation.png" alt="" class="arrows">
+                <div class="profile" id="profile">
+                    <img src="img/profile.png" alt="" class="photo">
+                    <p>Angel</p>
+                    <img src="img/drop.png" alt="">
+                </div>
+                <div class="div-profile hidden">
+                    <ul>
+                        <li>Account <img src="img/openarrow.png" alt=""></li>
+                        <li>Profile</li>
+                        <li>Log out</li>
+                    </ul>
+                </div>
+            </header>
+            <main class="catalog">
+                <h3 id="greetings"></h3>
+                <div class="playlist">
+                    <div class="cards" id="card">
+                        <img src="img/likedson.png" alt="">
+                        <p>Liked Songs</p>
+                        <img class="playbtn " src="img/playbtn.png" alt="" id="playbtn">
+                    </div>
+                    <div class="cards" id="card">
+                        <img src="img/kda.png" alt="">
+                        <p>K/ DA</p>
+                        <img class="playbtn" src="img/playbtn.png" alt="" id="playbtn">
+                    </div>
+                    <div class="cards" id="card">
+                        <img src="img/eletronic.png" alt="">
+                        <p>Eletronic mix</p>
+                        <img class="playbtn" src="img/playbtn.png" alt="" id="playbtn">
+                    </div>
+                </div>
+                <h3>Shows you might like</h3>
+                <section class="row-2">
+                    <div class="cards-row2">
+                        <img src="img/weeklymotivation.png" alt="">
+                        <h6>Weekly Motivatio...</h6>
+                        <p>Ben Ina Scott</p>
+                    </div>
+                    <div class="cards-row2">
+                        <img src="img/stories.png" alt="">
+                        <h6>The Stories of Ma...</h6>
+                        <p>Ben Ina Scott</p>
+                    </div>
+                    <div class="cards-row2">
+                        <img src="img/words.png" alt="">
+                        <h6>Words beyond act...</h6>
+                        <p>Ben Ina Scott</p>
+                    </div>
+                    <div class="cards-row2">
+                        <img src="img/motivation.png" alt="">
+                        <h6>Motivation Daily b...</h6>
+                        <p>Ben Ina Scott</p>
+                    </div>
+                </section>
+            </main>
+        </section>
+    </section>
     <section class="player">
 
     </section>
+    <div class="overlay hidden"></div>
+    <script type="text/javascript" src="js/script.js"></script>
+
 </body>
+
 </html>
